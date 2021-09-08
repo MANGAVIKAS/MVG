@@ -1,0 +1,147 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 40px;
+  color: gray;
+}
+h3{
+  padding-top: 3%;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+
+     color: gray;
+     margin-bottom: 3%;
+}
+.about-text p{
+  padding-top: 5%;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+b{
+font-size: 2rem;
+}
+
+#personaldetails{
+  background-color: #ffd7b5;
+  padding-bottom: 5%;
+}
+#educationaldetails{
+  background-color: #ffE4EB;
+  padding-bottom: 5%;
+}
+.skill-item{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  background-color: white;
+  border:1px solid;
+  border-color: white;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  margin:0 20px 20px 0;
+  border-radius: 20px;
+}
+.skill-item:hover {
+	box-shadow: 0px 0px 30px #0000002f;
+	border-radius: 20px;
+}
+.Skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeline-item{
+  margin-bottom: 30px;
+  position: relative;
+  padding: 10px 0 0 40px;
+}
+
+.timeline-item .date{
+  display: block;
+  font-weight: 400;
+  margin:0 0 10px;
+  color: #FF1493;
+}
+
+.timeline-item h6{
+  font-size: 18px;
+  text-transform: capitalize;
+
+}
+
+.timeline-item span{
+  font-weight: 400;
+}
+
+.timeline-item p span{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.timeline{
+  position: relative;
+}
+.timeline::before{
+  content: '';
+  position:absolute;
+  height: 100%;
+  width: 1px;
+  top: 0;
+  left: 5px;
+  background-color: #FF1493;
+}
+
+.timeline-item::before{
+  content: '';
+  position:absolute;
+  height: 11px;
+  width: 11px;
+  top: 16px;
+  left: 0;
+  background-color: #FF1493;
+}
+
+ p{
+  /* padding-top: 5%; */
+    /* line-height: 35px; */
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+.title-image{
+  padding-left: 3%;
+padding-top: 3%;
+}
+.Download-button1{
+  margin: 2% 3% 5% 45%;
+
+}
+#footer{
+  padding: 2% 15%;
+  text-align: center;
+  background-color: #DCF1F9;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+.about-text p span{
+  color:#FC6A03;
+}
+@media (max-width: 1028px){
+  .Download-button1{
+    margin: 2% 3% 5% 15%;
+
+  }
+  .title-image{
+    padding-left: 3%;
+  padding-top: 8%;
+  }
+  p{
+    padding-top: 5%;
+  }
+}
